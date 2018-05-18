@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro"
+       name="ur5_robotiq" >
+
+  <!-- ur5 -->
+  <xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro" />
+
+  <!-- arm -->
+  <xacro:ur5_robot prefix="" joint_limited="false"/>
+
+  <!-- gripper -->
+  <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
+
+	<xacro:robotiq_85_gripper prefix="" parent="tool0" >
+		<origin xyz="0.0 0 0.0" rpy="0 ${-pi/2} 0.0"/>
+	</xacro:robotiq_85_gripper>
+
+</robot>
