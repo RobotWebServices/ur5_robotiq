@@ -2,7 +2,7 @@
 This repo demonstrates Robot Web Services's ROS simulation web application which is linked to in the github badge below
 
 # Simulation Status
-[![Simulation Status](https://robotwebservices.com/githubapp/robotwebservices/ur5_robotiq.svg?branch=master)](https://robotwebservices.com/githubapp/robotwebservices/ur5_robotiq)
+[![Simulation Status](https://s3.amazonaws.com/rwsapi/ur5_robotiq.svg)](https://robotwebservices.com/githubapp/robotwebservices/ur5_robotiq)
 
 Stay Tuned!
 
